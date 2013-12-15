@@ -1,0 +1,12 @@
+*~
+.*.swp
+.*.swo
+*.o
+lib*.a
+.deps
+*~
+.#*
+\#*\#
+\#*
+TAGS
+one_color
