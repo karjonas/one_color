@@ -1,0 +1,24 @@
+=============
+One Colour
+=============
+
+A LudumDare game entry written by Jonas Karlsson.
+
+Building and running
+--------------------
+
+To compile and run you must have allegro5 and a c++ compiler installed.
+Then run:
+
+$ make
+$ ./one_color
+
+License and Attribution
+--------------------
+All source code is licensed under The MIT License (MIT).
+
+The Press Start 2P font by Cody "CodeMan38" Boisclair is licensed under SIL Open Font License (OFL).
+
+The alert.wav sound by "dklon" and level_win.wav by "NenadSimic" is licensed under Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+
+The beep.wav sound by "bart" is licensed under Creative Commons Public Domain (CC 0).
