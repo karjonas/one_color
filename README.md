@@ -1,6 +1,5 @@
-=============
 One Color
-=============
+=========
 
 A Ludum Dare 28 game entry written by Jonas Karlsson.
 
@@ -9,19 +8,19 @@ Building and running
 
 To compile and run you must have allegro5 and a c++ compiler installed.
 
-Arch Linux:
-$ sudo pacman -S --needed git gcc make allegro
-$ git clone https://github.com/karjonas/one_color.git
-$ cd one_color
-$ make
-$ ./one_color
+### Arch Linux:
+    sudo pacman -S --needed git gcc make allegro
+    git clone https://github.com/karjonas/one_color.git
+    cd one_color
+    make
+    ./one_color
 
-Ubuntu:
-$ sudo apt-get install git g++ liballegro5.0 liballegro5-dev
-$ git clone https://github.com/karjonas/one_color.git
-$ cd one_color
-$ make
-$ ./one_color
+### Ubuntu:
+    sudo apt-get install git g++ liballegro5.0 liballegro5-dev
+    git clone https://github.com/karjonas/one_color.git
+    cd one_color
+    make
+    ./one_color
 
 License and Attribution
 --------------------
