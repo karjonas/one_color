@@ -8,8 +8,11 @@ Building and running
 --------------------
 
 To compile and run you must have allegro5 and a c++ compiler installed.
-Then run:
 
+On Arch Linux:
+$ sudo pacman -S --needed git gcc make allegro
+$ git clone https://github.com/karjonas/one_color.git
+$ cd one_color
 $ make
 $ ./one_color
 
