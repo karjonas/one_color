@@ -1,7 +1,7 @@
-CXX=g++
-CFLAGS=
+CXX=gcc
+CFLAGS=-lstdc++
 LDFLAGS=-L/usr/lib -lallegro -lallegro_primitives -lallegro_font -lallegro_ttf -lallegro_audio -lallegro_acodec
-INCLUDE=-I. -I/usr/include/allegro5
+INCLUDE=-I. -I/usr/include/allegro5 -I/usr/include
 
 OBJS=main.cpp Level.cpp ColorList.cpp ColorSelector.cpp BlockBoard.cpp MainLoop.cpp
 OUT=one_color
