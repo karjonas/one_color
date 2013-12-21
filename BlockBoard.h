@@ -31,6 +31,10 @@ THE SOFTWARE.
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
 
+static const int MAX_ROWS=100;
+static const int MAX_COLS=100;
+static const int MAX_COLORS=8;
+
 class BlockBoard
 {
 public:
@@ -44,7 +48,6 @@ public:
     int get_colors() const { return colors;};
     void init(int colors_per_block[]);
  
-
 private:
     int rows;
     int cols;
@@ -52,10 +55,6 @@ private:
     int width;
     int height;
 
-    static const int MAX_ROWS=100;
-    static const int MAX_COLS=100;
-    static const int MAX_COLORS=20;
-    
     int block_color[MAX_ROWS][MAX_COLS];
     int num_blocks_color[MAX_COLORS];
 

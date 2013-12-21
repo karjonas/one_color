@@ -29,6 +29,7 @@ THE SOFTWARE.
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
 #include "Level.h"
+#include "BlockBoard.h"
 
 Level::Level() :
     board(BlockBoard(3, 2, 2, 400, 280))
@@ -99,7 +100,7 @@ void Level::create_level(int rows, int cols, int num_colors, int percent_diff)
     int win_color_percent = base_percent + percent_diff;
     int lose_color_percent =  base_percent - (percent_diff / (num_colors - 1));
     int total_blocks = rows*cols;
-    int blocks_per_color[10];
+    int blocks_per_color[MAX_COLORS];
     
 
     blocks_per_color[0] = (total_blocks * win_color_percent)/100;

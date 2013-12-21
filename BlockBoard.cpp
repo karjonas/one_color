@@ -56,11 +56,9 @@ void BlockBoard::init(int blocks_per_color[])
     
     // Calculate block size
     block_size = height/rows < width/cols ? height/rows : width/cols;
-
-    assert(sizeof(blocks_per_color) >= colors);
     
     int total_blocks = 0;
-    int added_blocks_per_color[sizeof(blocks_per_color)];
+    int added_blocks_per_color[MAX_COLORS];
     for(int i = 0; i < colors; i++)
     {
         total_blocks += blocks_per_color[i];
