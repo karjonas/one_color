@@ -126,6 +126,9 @@ void game_loop(void)
                 main_loop.key_pressed(event.keyboard.keycode);
             }
         }
+        else if (event.type == ALLEGRO_EVENT_DISPLAY_CLOSE) {
+          done = true;
+        }
         if (redraw && al_is_event_queue_empty(event_queue)) {
             redraw = false;
             main_loop.draw();

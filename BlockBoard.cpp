@@ -57,7 +57,7 @@ void BlockBoard::init(int blocks_per_color[])
     // Calculate block size
     block_size = height/rows < width/cols ? height/rows : width/cols;
 
-    assert(sizeof(blocks_per_color) >= (uint)colors);
+    assert(sizeof(blocks_per_color) >= colors);
     
     int total_blocks = 0;
     int added_blocks_per_color[sizeof(blocks_per_color)];
@@ -166,7 +166,7 @@ int BlockBoard::strongest_color()
 
 bool BlockBoard::remove_blocks()
 {
-    bool color_removed[colors];
+    bool color_removed[MAX_COLORS];
     int num_colors_left = 0;
     for(int i = 0; i < colors; i++)
     {
