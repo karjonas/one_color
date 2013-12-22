@@ -41,7 +41,7 @@ ColorSelector::ColorSelector(int num_colors, int width, int height)
 {
     selected_color = num_colors/2;
     block_size = height < width/num_colors ? height : width/num_colors; 
-    sample = al_load_sample( "beep.wav" );
+    sample = al_load_sample( "data/beep.wav" );
 
 };
 

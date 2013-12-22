@@ -36,14 +36,14 @@ MainLoop::MainLoop() :
     color_selector(2,400, 80)
 {
     state = SPLASH_SCREEN;
-    font = al_load_ttf_font("PressStart2P.ttf",72,0 );
-    font_splash_big = al_load_ttf_font("PressStart2P.ttf",48,0 );
-    font_splash_small = al_load_ttf_font("PressStart2P.ttf",24,0 );
+    font = al_load_ttf_font("data/PressStart2P.ttf",72,0 );
+    font_splash_big = al_load_ttf_font("data/PressStart2P.ttf",48,0 );
+    font_splash_small = al_load_ttf_font("data/PressStart2P.ttf",24,0 );
     alpha = 255;
     selected_color = 0;
     done_selecting = false;
-    win = al_load_sample( "level_win.wav" );
-    alert = al_load_sample( "alert.wav" );
+    win = al_load_sample( "data/level_win.wav" );
+    alert = al_load_sample( "data/alert.wav" );
 };
 
 bool MainLoop::tick()
