@@ -22,8 +22,15 @@ To compile and run you must have allegro5 and a c++ compiler installed.
     make
     ./one_color
 
+Screenshots
+-----------
+
+![Screenshot 1](/img/shot0.png?raw=true)
+
+![Screenshot 2](/img/shot1.png?raw=true)
+
 License and Attribution
---------------------
+-----------------------
 All source code is licensed under The MIT License (MIT).
 
 The Press Start 2P font by Cody "CodeMan38" Boisclair is licensed under SIL Open Font License (OFL).
