@@ -22,6 +22,13 @@ To compile and run you must have allegro5 and a c++ compiler installed.
     make
     ./one_color
 
+### Fedora
+    sudo yum install git gcc-c++ allegro5 allegro5-devel allegro5-addon-ttf-devel allegro5-addon-audio-devel allegro5-addon-acodec-devel
+    git clone https://github.com/karjonas/one_color.git
+    cd one_color
+    make
+    ./one_color
+
 Screenshots
 -----------
 
